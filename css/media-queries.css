@@ -1,0 +1,140 @@
+@media screen and (max-width: 991px) {
+    #above{
+        display: none;
+    }
+    h3{
+        font-size: 1.2rem;
+    }
+
+    .nav-toggle{
+        display: block;
+        margin-right: 20px;
+    }
+    .main-nav{
+        overflow: initial;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        top: 50px;
+        left: -100%;
+        width: 100%;
+        padding-block: 0 10px;
+        transition: all 0.2s ease-in-out;
+    }
+    .nav-links.active{
+        left: 0;
+    }
+    ul{
+        /* height: 80vh; */
+        margin-block: 30px 50px;
+    }
+    .nav-links ul{
+        flex-direction: column;
+        
+    }
+    .examples-area{
+        gap: 20px;
+    }
+    .examples-card{
+        width: calc(50% - 10px);
+        height: 180px;
+    }
+    .cta-section{
+        padding-block: 0;
+    }
+    .cta-section-right img{
+        width: 110%;
+    }
+    .cta-section-left{
+        font-size: 0.7rem;
+        padding-block: 20px;
+    }
+    .cta-section-left p{
+        font-size: 0.9rem;
+    }
+    .header-left{
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+    .box div{
+        width: 30px;
+        height: 30px;
+    }
+    .primary-button{
+        width: 100%;
+        text-align: center;
+    }
+    .header-section{
+        flex-direction: column-reverse;
+    }
+    .header-left{
+        max-width: 100vw;
+        text-align: center;
+    }
+    .features-card{
+        min-width: 45%;
+    }
+    .big-feature-container{
+        flex-flow: column !important;
+
+    }
+    .footer-section{
+        flex-flow: column;
+        gap: 20px;
+    }
+    .footer-items{
+        align-items: center;
+    }
+    .above{
+        flex-direction: column-reverse;
+    }
+    .cta-section-right{
+        justify-content: center;
+    }
+    .cta-section-right img{
+      width: 80%;
+    }
+    .cta-section-left .primary-button{
+        width: 50%;
+    }
+    .cta-bottom{
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 479px){
+
+    :root{
+        --padding-inline-section: 10px;
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.2rem;
+    }
+    p{
+      font-size: 1rem;
+    }
+    .features-card{
+        min-width: 100%;
+    }
+    .examples-card{
+        min-width: 100%;
+    }
+    .cta-list{
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .cta-section-left{
+        text-align: center;
+    }
+   
+}
